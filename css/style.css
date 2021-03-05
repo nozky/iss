@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* + * {
+  margin-top: 1rem;
+}
+
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+
+
+#map{
+  width:70vw;
+  height: 70vh;
+  background-color: gray;
+}
+
+
+.position > *{
+  margin: 0;
+}
+
+.position{
+  width: 100%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+
+}
+
+footer{
+  display:flex;
+  justify-content:center;
+  position: fixed;
+  bottom: 0;
+  background-color:lightgray;
+  width:100%;
+}
